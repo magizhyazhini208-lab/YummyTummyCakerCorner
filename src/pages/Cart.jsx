@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import products from "../data/product";
 import { useNavigate } from "react-router-dom";
+import './cart.css';
+import './productList.css';
 
 function Cart() {
   const navigate=useNavigate();

@@ -1,0 +1,45 @@
+.card1{
+  list-style: none;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cardList1{
+  height: 25rem;
+  width: 50rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color:brown;
+  color: white;
+  text-align: center;
+  line-height: 1.8rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.cardList1 img{
+  height: 10rem;
+  width: 20rem;
+  cursor: pointer;
+}
+@media screen and (max-width:600px) {
+.cardList1{
+  height: 15rem;
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color:cadetblue;
+  text-align: center;
+  line-height: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: small;
+}
+.cardList1 img{
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+}

@@ -1,0 +1,28 @@
+table{
+  border: 0.2rem solid gray;
+  height: 10rem;
+  width: 15rem;
+  margin: 2rem auto;
+}
+th{
+text-align: left;
+}
+td{
+text-align: right;
+}
+.cardBuyNow
+{
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  width:5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.cardBuyNow:hover{
+  background-color: purple;
+  width:5.5rem;
+  height: 2.5rem;
+  transition: 0.2s;
+  cursor: pointer;
+}

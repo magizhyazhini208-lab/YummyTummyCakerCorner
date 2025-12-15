@@ -1,0 +1,16 @@
+.closeSidebar {
+  transition: 0.2s;
+  top: -100px;
+  cursor: pointer;
+}
+.openSlideBar {
+  transform: translateX(0);
+  background-color:purple;
+  height:1.5rem;
+  width: 100%;
+  top: 0px;
+  margin: 5px auto;
+  padding: 0px;
+  transition: 0.2s;
+  cursor: pointer;
+}

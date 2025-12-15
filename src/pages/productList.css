@@ -1,0 +1,72 @@
+
+.card{
+  list-style: none;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cardList{
+  height: 22rem;
+  width: 15rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color:cadetblue;
+  text-align: center;
+  line-height: 1.8rem;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.cardList:hover{
+  height: 23rem;
+  width: 16rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color:burlywood;
+  text-align: center;
+  line-height: 1.8rem;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.cardList img{
+  height: 10rem;
+  width: 10rem;
+  cursor: pointer;
+}
+.cardList button
+{
+  height: 2rem;
+  width: 7rem;
+  background-color:pink;
+  font-weight: bold;
+  border-radius: 5rem;
+  border-left: 0.5rem solid green;
+  cursor: pointer;
+}
+.cardList input{
+  width:2.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.cardList button:hover
+{
+  height: 2.1rem;
+  width: 7.1rem;
+  background-color:purple;
+  font-weight:bolder;
+  border-radius: 2rem;
+  color: white;
+  border-left: 0;
+  border-right: 0.5rem solid green;
+  transition: 0.2s;
+  cursor: pointer;
+}

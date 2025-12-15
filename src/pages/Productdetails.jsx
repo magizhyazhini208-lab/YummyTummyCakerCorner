@@ -1,3 +1,4 @@
+import './productDetails.css'
 import { useParams } from "react-router-dom";
 import products from "../data/product";
 function ProductDetails() {

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import products from "../data/product";
 import { useNavigate } from "react-router-dom";
+import './productList.css';
 function ProductList() {
   const navigate=useNavigate();
     const person=JSON.parse(localStorage.getItem('Person'));

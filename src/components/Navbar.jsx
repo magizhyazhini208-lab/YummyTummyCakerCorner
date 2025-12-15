@@ -1,5 +1,7 @@
 import {useNavigate } from "react-router-dom";
 import { useState } from "react";
+import './navbar.css'
+
 function Navbar() {
   const [isOpen,setIsOpen]=useState(false);
   const clsName = isOpen ? "openSlideBar" : "closeSidebar";
