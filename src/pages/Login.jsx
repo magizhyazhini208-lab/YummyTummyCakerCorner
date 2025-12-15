@@ -123,8 +123,8 @@ function Login() {
                     <input type="text"value={name}onChange={(e) => setName(e.target.value)}required/>
                   </div>
                   <div className="contentGrid">
-                    <label>UserName</label>
-                    <input type="text"value={name}onChange={(e) => setName(e.target.value)}required/>
+                    <label>DOB</label>
+                    <input type="text"value={dob}onChange={(e) => setDob(e.target.value)}required/>
                   </div>
                   <div className="contentGrid">
                     <label>Contact Number</label>
